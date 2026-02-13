@@ -31,7 +31,7 @@ CREATE TABLE `wp_usermeta` (
   PRIMARY KEY (`umeta_id`),
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -57,7 +57,8 @@ INSERT INTO `wp_usermeta` VALUES (1,1,'nickname','michaelkentburns@gmail.com'),
 (15,1,'show_welcome_panel','1'),
 (16,1,'session_tokens','a:1:{s:64:\"a7c5d9b8da3c0f932cde23b75e2dff36e6ac198148af999a6d9ef5400b335562\";a:4:{s:10:\"expiration\";i:1771111073;s:2:\"ip\";s:13:\"97.184.115.15\";s:2:\"ua\";s:117:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15\";s:5:\"login\";i:1770938273;}}'),
 (17,1,'wp_dashboard_quick_press_last_post_id','5'),
-(18,1,'community-events-location','a:1:{s:2:\"ip\";s:12:\"97.184.115.0\";}');
+(18,1,'community-events-location','a:1:{s:2:\"ip\";s:12:\"97.184.115.0\";}'),
+(19,1,'wp_persisted_preferences','a:4:{s:4:\"core\";a:1:{s:26:\"isComplementaryAreaVisible\";b:1;}s:14:\"core/edit-site\";a:1:{s:12:\"welcomeGuide\";b:0;}s:9:\"_modified\";s:24:\"2026-02-13T00:11:34.786Z\";s:14:\"core/edit-post\";a:1:{s:12:\"welcomeGuide\";b:0;}}');
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -70,4 +71,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-02-12 23:45:12
+-- Dump completed on 2026-02-13  0:19:02
