@@ -1,7 +1,7 @@
 <?php 
 defined( 'ABSPATH' ) || exit;
 return array (
-  'homepage' => 'https://wordpress-971999-6209411.cloudwaysapps.com',
+  'homepage' => 'https://student.michaelkentburns.com',
   'cache_options' => 
   array (
     'breeze-active' => '1',
@@ -142,6 +142,9 @@
     2 => 'author',
     3 => 'contributor',
     4 => 'subscriber',
+    5 => 'student',
+    6 => 'teacher',
+    7 => 'instructor',
   ),
   'enabled-lazy-load' => '0',
   'use-lazy-load-native' => '0',

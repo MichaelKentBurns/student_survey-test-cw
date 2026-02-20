@@ -66,7 +66,7 @@ define( 'WP_REDIS_CONFIG', [
    'username' => "arncryrdgs",
    'password' => "6VD28hsU8X",
    'port' => 6379,
-   'database' => 9411, 
+   'database' => "9411", 
    'timeout' => 2.5,
    'read_timeout' => 2.5,
    'split_alloptions' => true,
